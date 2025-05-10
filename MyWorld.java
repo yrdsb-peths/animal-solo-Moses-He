@@ -8,9 +8,9 @@ public class MyWorld extends World {
         super(600, 400, 1, false);
         
         
-        Animal bee = new Animal() ;
-        addObject(bee, 300, 200);
         
+        Bee bee = new Bee();
+        addObject(bee, 300, 200);
         scoreLabel = new Label(0,50);
         addObject(scoreLabel , 30,20);
         
@@ -24,6 +24,8 @@ public class MyWorld extends World {
     {
         Label gameOverLabel = new Label("Game Over", 100);
         addObject(gameOverLabel, 300, 200);
+        GreenfootSound memeSound = new GreenfootSound("meme.mp3");
+        memeSound.play();
     }
     /*
      * score++
