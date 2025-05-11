@@ -8,7 +8,7 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  */
 public class Bee extends Actor
 {
-    GreenfootSound fartSound = new GreenfootSound("fart.mp3");
+    GreenfootSound fartSound = new GreenfootSound("meme.mp3");
     GreenfootImage[] idleRight = new GreenfootImage[5];
     GreenfootImage[] idleLeft = new GreenfootImage[5];
     

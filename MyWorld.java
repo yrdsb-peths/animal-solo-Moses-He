@@ -24,7 +24,7 @@ public class MyWorld extends World {
     {
         Label gameOverLabel = new Label("Game Over", 100);
         addObject(gameOverLabel, 300, 200);
-        GreenfootSound memeSound = new GreenfootSound("meme.mp3");
+        GreenfootSound memeSound = new GreenfootSound("fart.mp3");
         memeSound.play();
     }
     /*
