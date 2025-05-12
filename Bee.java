@@ -65,7 +65,7 @@ public class Bee extends Actor
               removeTouching(Apple.class);
               MyWorld world = (MyWorld) getWorld();
               world.creatApple();
-              world.increaseScore();
+              world.scoreincrease();
               fartSound.play();
          }
     }
